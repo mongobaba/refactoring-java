@@ -18,11 +18,11 @@ class Chapter9_7Test {
     void hasCustomer() {
         Customer customer = new Customer("Don");
         site.setCustomer(customer);
-        assertEquals("site used by <Don>", site.displayRecord());
+        assertEquals("site used by <Don>, delinquent 10", site.displayRecord());
     }
 
     @Test
     void noCustomer() {
-        assertEquals("site used by <occupant>", site.displayRecord());
+        assertEquals("site used by <occupant>, delinquent 0", site.displayRecord());
     }
 }

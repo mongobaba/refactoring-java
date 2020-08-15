@@ -5,6 +5,12 @@ package org.mongobaba.refactory.chapter9;
  * 引入Null对象
  */
 public class Chapter9_7 {
+    static class PaymentHistory {
+        int getWeeksDelinquentInLastYear() {
+            return 10;
+        }
+    }
+
     static class Customer {
         private String name;
 
@@ -14,6 +20,10 @@ public class Chapter9_7 {
 
         public String getName() {
             return name;
+        }
+
+        public PaymentHistory getHistory() {
+            return new PaymentHistory();
         }
     }
 
@@ -36,7 +46,13 @@ public class Chapter9_7 {
             } else {
                 customerName = customer.getName();
             }
-            return String.format("site used by <%s>", customerName);
+            int weeksDelinquent;
+            if (customer == null) {
+                weeksDelinquent = 0;
+            } else {
+                weeksDelinquent = customer.getHistory().getWeeksDelinquentInLastYear();
+            }
+            return String.format("site used by <%s>, delinquent %d", customerName, weeksDelinquent);
         }
     }
 }
