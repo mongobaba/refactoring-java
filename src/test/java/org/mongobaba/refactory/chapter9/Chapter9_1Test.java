@@ -2,16 +2,16 @@ package org.mongobaba.refactory.chapter9;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mongobaba.refactory.DateUtil;
 
-import java.time.Instant;
 import java.util.Date;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Chapter9_1Test {
     private Chapter9_1 obj;
-    private static final Date summerDate = Date.from(Instant.parse("2020-07-01T00:00:00.00Z"));
-    private static final Date winterDate = Date.from(Instant.parse("2020-11-01T00:00:00.00Z"));
+    private static final Date summerDate = DateUtil.at(2020, 7, 1);
+    private static final Date winterDate = DateUtil.at(2020, 11, 1);
 
     @BeforeEach
     void setup() {

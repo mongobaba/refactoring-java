@@ -2,11 +2,9 @@ package org.mongobaba.refactory.chapter10;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mongobaba.refactory.DateUtil;
 
-import java.time.Instant;
-import java.util.Date;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mongobaba.refactory.chapter10.Chapter10_9.*;
 
 class Chapter10_9Test {
@@ -15,11 +13,11 @@ class Chapter10_9Test {
     @BeforeEach
     void initAccount() {
         account = new Account();
-        account.addEntry(new Entry(2.0, Date.from(Instant.parse("2020-03-01T00:00:00Z"))));
-        account.addEntry(new Entry(13.0, Date.from(Instant.parse("2020-04-01T00:00:00Z"))));
-        account.addEntry(new Entry(8.5, Date.from(Instant.parse("2020-06-01T00:00:00Z"))));
-        account.addEntry(new Entry(7.0, Date.from(Instant.parse("2020-07-01T00:00:00Z"))));
-        account.addEntry(new Entry(22.0, Date.from(Instant.parse("2020-08-01T00:00:00Z"))));
+        account.addEntry(new Entry(2.0, DateUtil.at(2020, 3, 1)));
+        account.addEntry(new Entry(13.0, DateUtil.at(2020, 4, 1)));
+        account.addEntry(new Entry(8.5, DateUtil.at(2020, 6, 1)));
+        account.addEntry(new Entry(7.0, DateUtil.at(2020, 7, 1)));
+        account.addEntry(new Entry(22.0, DateUtil.at(2020, 8, 1)));
     }
 
     @Test

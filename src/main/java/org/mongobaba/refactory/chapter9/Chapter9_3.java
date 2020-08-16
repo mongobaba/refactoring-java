@@ -1,7 +1,5 @@
 package org.mongobaba.refactory.chapter9;
 
-import java.io.Console;
-
 /**
  * Consolidate Duplicate Conditional Fragments
  * 合并重复的条件片段

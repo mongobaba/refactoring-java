@@ -1,6 +1,7 @@
 package org.mongobaba.refactory.chapter10;
 
-import java.time.Instant;
+import org.mongobaba.refactory.DateUtil;
+
 import java.util.Date;
 import java.util.Enumeration;
 import java.util.Vector;
@@ -49,8 +50,8 @@ public class Chapter10_9 {
         private Vector<Entry> _entries = new Vector<>();
     }
 
-    private static final Date beginDate = Date.from(Instant.parse("2020-04-01T00:00:00.00Z"));
-    private static final Date endDate = Date.from(Instant.parse("2020-07-01T00:00:00.00Z"));
+    private static final Date beginDate = DateUtil.at(2020, 4, 1);
+    private static final Date endDate = DateUtil.at(2020, 7, 1);
 
     static double getFlow(Account account) {
         return account.getFlowBetween(beginDate, endDate);
