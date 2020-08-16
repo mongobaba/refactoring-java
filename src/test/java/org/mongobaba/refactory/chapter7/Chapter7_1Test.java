@@ -33,4 +33,10 @@ class Chapter7_1Test {
         account = new Account(notPremiumAccount, 3);
         assertEquals(9.75, account.bankCharge(), 0.001);
     }
+
+    @Test
+    void callAccountMethod() {
+        account = new Account(premiumAccount, 10);
+        assertEquals(17.05, account.bankCharge2(), 0.001);
+    }
 }
