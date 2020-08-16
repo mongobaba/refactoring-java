@@ -20,7 +20,7 @@ public class Chapter10_13 {
     }
 
     static class Site {
-        private Vector readings = new Vector();
+        private Vector<Object> readings = new Vector<>();
 
         void addReading(Reading reading) {
             readings.add(reading);
