@@ -25,4 +25,8 @@ public class SystemOutputChecker {
     protected String getOutputString() {
         return stream.toString();
     }
+
+    protected String getTranslatedOutputString() {
+        return stream.toString().replace("\r\n", "\n");
+    }
 }

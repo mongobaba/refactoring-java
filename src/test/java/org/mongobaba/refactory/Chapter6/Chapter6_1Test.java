@@ -14,11 +14,11 @@ class Chapter6_1Test extends SystemOutputChecker {
         obj.addOrder(new Order(5.2));
         obj.printOwing(10.0);
         String expected =
-                "*************************\r\n" +
-                "***** Customer Owes *****\r\n" +
-                "*************************\r\n" +
-                "name: Tim\r\n" +
-                "amount: 25.2\r\n";
-        assertEquals(expected, getOutputString());
+                "*************************\n" +
+                "***** Customer Owes *****\n" +
+                "*************************\n" +
+                "name: Tim\n" +
+                "amount: 25.2\n";
+        assertEquals(expected, getTranslatedOutputString());
     }
 }
