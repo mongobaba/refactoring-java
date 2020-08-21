@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CustomerTest {
-    private final Movie childrenMovie = new Movie("Toy Story 2", Movie.CHILDRENS);
+    private final Movie childrenMovie = new Movie("Toy Story 2", Movie.CHILDREN);
     private final Movie regularMovie = new Movie("Saving Private Ryan", Movie.REGULAR);
     private final Movie newReleaseMovie = new Movie("Fast & Furious", Movie.NEW_RELEASE);
 
