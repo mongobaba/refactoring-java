@@ -12,6 +12,7 @@ public class Chapter7_8 {
         return getNextDay(date).getTime();
     }
 
+    // TODO 分别使用子类化和包装类技术，将nextDay方法转移到新的类型中
     @SuppressWarnings("deprecation")
     static Date getNextDay(Date day) {
         return new Date(day.getYear(), day.getMonth(), day.getDate() + 1);
