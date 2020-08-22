@@ -29,6 +29,7 @@ public class Chapter11_3 {
     static class Manager extends Employee {
         private int _grade;
 
+        // TODO 将_grade赋值前后的部分都提取到Employee中
         Manager(String name, int id, int grade) {
             _name = name;
             _id  = id;
