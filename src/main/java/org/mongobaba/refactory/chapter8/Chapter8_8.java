@@ -8,6 +8,7 @@ import java.util.Set;
  * 将双向关联改为单向关联
  */
 public class Chapter8_8 {
+    // TODO 删除Order中的customer字段
     static class Order {
         public Customer getCustomer() {
             return _customer;

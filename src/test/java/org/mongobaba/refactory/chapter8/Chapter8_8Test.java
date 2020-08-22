@@ -10,7 +10,7 @@ class Chapter8_8Test {
     void getPriceFor() {
         Customer customer = new Customer();
         Order order = new Order();
-        order.setCustomer(customer);
+        customer.addOrder(order);
         assertEquals(50.0, customer.getPriceFor(order), 0.001);
     }
 }
