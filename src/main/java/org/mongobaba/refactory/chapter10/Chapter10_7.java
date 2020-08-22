@@ -48,6 +48,8 @@ public class Chapter10_7 {
             this._range = _range;
         }
 
+        // TODO 更改参数类型为TempRange，去除现有参数
+        //      将此方法的本体移入TempRange类型中
         boolean withinRange(int low, int high) {
             return low >= _range.getLow() && high <= _range.getHigh();
         }
