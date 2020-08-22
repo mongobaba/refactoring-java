@@ -20,6 +20,8 @@ class Chapter8_7Test {
         order2 = new Order("2");
     }
 
+    // TODO 重构之后删除addOrder或setCustomer其中之一进行验证
+
     @Test
     void printAllOrder() {
         order1.setCustomer(Don);

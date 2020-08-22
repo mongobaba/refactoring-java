@@ -8,6 +8,9 @@ import java.util.Set;
  * 将单向关联改为双向关联
  */
 public class Chapter8_7 {
+    // TODO 在Order和Customer之间建立双向关联，使得调用
+    //      setCustomer和addOrder的任意一个皆可建立双方之间的联系
+
     static class Order {
         public Order(String id) {
             this._id = id;
