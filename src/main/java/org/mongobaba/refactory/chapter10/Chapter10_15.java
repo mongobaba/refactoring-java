@@ -1,6 +1,5 @@
 package org.mongobaba.refactory.chapter10;
 
-import java.util.ArrayDeque;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
@@ -20,6 +19,7 @@ public class Chapter10_15 {
         private Stack<Object> _available = new Stack<>();
         private Stack<Object> _allocated = new Stack<>();
 
+        // TODO 移除此方法中的异常捕获和处理，改为普通的检查
         Resource getResource() {
             Resource result;
             try {
