@@ -30,6 +30,7 @@ public class Chapter7_1 {
             return _daysOverdrawn;
         }
 
+        // TODO 将此方法移动到AccountType中
         double overdraftCharge() {
             if (_type.isPremium()) {
                 double result = 10;
@@ -50,6 +51,7 @@ public class Chapter7_1 {
             return result;
         }
 
+        // TODO 将此方法移动到AccountType中
         double overdraftCharge2() {
             if (_type.isPremium()) {
                 double result = 10;

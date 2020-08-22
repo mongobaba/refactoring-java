@@ -9,6 +9,8 @@ public class Chapter7_2 {
 
     static class Account {
         private AccountType _type = new AccountType();
+
+        // TODO 将此字段搬移到AccountType中
         private double _interestRate;
 
         Account(double interestRate) {
