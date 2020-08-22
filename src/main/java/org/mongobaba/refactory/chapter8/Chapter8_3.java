@@ -8,6 +8,8 @@ import java.util.Iterator;
  * 将值对象改为引用对象
  */
 public class Chapter8_3 {
+    // TODO 将Customer改为一个引用对象
+    // TODO 为Customer新实例提供统一的访问途径
     static class Customer {
         private final String _name;
 
