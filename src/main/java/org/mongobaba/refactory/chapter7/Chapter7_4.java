@@ -26,6 +26,7 @@ public class Chapter7_4 {
         }
     }
 
+    // TODO 将该类塞到Person中去
     static class TelephoneNumber {
         private String _areaCode;
         private String _number;
