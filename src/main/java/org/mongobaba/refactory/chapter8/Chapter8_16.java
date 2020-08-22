@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter8;
  * 以字段取代子类
  */
 public class Chapter8_16 {
+    // TODO 删除子类Male和Female
     static abstract class Person {
         abstract boolean isMale();
         abstract char getCode();
