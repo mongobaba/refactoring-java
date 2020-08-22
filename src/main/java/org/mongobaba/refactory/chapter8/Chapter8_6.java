@@ -24,6 +24,7 @@ public class Chapter8_6 {
     }
 
     static class IntervalWindow extends MyFrame {
+        // TODO 为如下数据项建立领域类
         private TextField _startField = new TextField();
         private TextField _endField = new TextField();
         private TextField _lengthField = new TextField();
@@ -100,6 +101,7 @@ public class Chapter8_6 {
             }
         }
 
+        // TODO 将此方法转移到领域类中
         private void calculateLength() {
             try {
                 int start = Integer.parseInt(_startField.getText());
@@ -111,6 +113,7 @@ public class Chapter8_6 {
             }
         }
 
+        // TODO 将此方法转移到领域类中
         private void calculateEnd() {
             try {
                 int start = Integer.parseInt(_startField.getText());

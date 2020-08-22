@@ -14,6 +14,12 @@ class Chapter8_6Test {
         window = new IntervalWindow();
     }
 
+    /**
+     * TODO 在重构过程中需要将下面对TextField的直接设置改为
+     * window.setStart("8")这样的形式。
+     * 相反，取值部分不需要更改，以便验证UI数据确实是符合期望的。
+     */
+
     @Test
     void startFieldLostFocus() {
         window.focusStart();
