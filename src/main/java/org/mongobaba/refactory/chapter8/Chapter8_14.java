@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter8;
  * 以子类取代类型码
  */
 public class Chapter8_14 {
+    // TODO 分别为不同的职业建立子类
     static class Employee {
         private int _type;
         static final int ENGINEER = 0;
