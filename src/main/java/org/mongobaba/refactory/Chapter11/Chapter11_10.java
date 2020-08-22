@@ -36,6 +36,7 @@ public class Chapter11_10 {
         }
     }
 
+    // TODO 将输出报表的部分抽取出Customer，并建立新的继承体系
     static class Customer {
         private String _name;
         private Vector<Object> _rentals = new Vector<>();
