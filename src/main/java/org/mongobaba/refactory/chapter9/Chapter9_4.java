@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter9;
  * 移除控制标记
  */
 public class Chapter9_4 {
+    // TODO 去除found标记
     void checkSecurity(String[] people) {
         boolean found = false;
         for (int i = 0; i < people.length; i++) {
@@ -20,6 +21,7 @@ public class Chapter9_4 {
         }
     }
 
+    // TODO 去除found变量
     void checkSecurityAndUse(String[] people) {
         String found = "";
         for (int i = 0; i < people.length; i++) {
