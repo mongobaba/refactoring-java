@@ -5,6 +5,8 @@ package org.mongobaba.refactory.Chapter11;
  * 提炼子类
  */
 public class Chapter11_6 {
+    // TODO 从JobItem中抽取一个LaborItem类，专门处理按工时收费的情况；
+    //      从JobItem中抽取一个PartsItem类，专门处理按零件收费的情况。
     static class JobItem {
         public JobItem(int unitPrice, int quantity, boolean isLabor, Employee employee) {
             _unitPrice = unitPrice;
