@@ -20,6 +20,7 @@ public class Chapter10_1 {
             return _name;
         }
 
+        // TODO 将getTelephoneNumber改为getOfficeTelephoneNumber
         public String getTelephoneNumber() {
             return "(" + _officeAreaCode + ")" + _officeNumber;
         }
