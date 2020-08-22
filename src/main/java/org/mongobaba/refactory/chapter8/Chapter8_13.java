@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter8;
  * 以类取代类型码
  */
 public class Chapter8_13 {
+    // TODO 分别使用Class和Enum替换整型进行重构
     static class Person {
         public static final int O = 0;
         public static final int A = 1;
