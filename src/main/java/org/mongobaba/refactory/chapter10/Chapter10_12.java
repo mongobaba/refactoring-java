@@ -24,6 +24,7 @@ public class Chapter10_12 {
         }
     }
 
+    // TODO 使用工厂方法取代直接创建
     static String showEngineer() {
         Employee employee = new Employee(Employee.ENGINEER);
         return employee.toString();
@@ -44,6 +45,8 @@ public class Chapter10_12 {
             return "Female{}";
         }
     }
+
+    // TODO 以明确的创建方法取代new创建
 
     static String showMale() {
         return new Male().toString();
