@@ -23,6 +23,7 @@ public class Chapter8_11 {
         private boolean _isAdvanced;
     }
 
+    // TODO 删除集合的get和set方法
     static class Person {
         public Set<Object> getCourses() {
             return _courses;
@@ -48,6 +49,7 @@ public class Chapter8_11 {
         return kent;
     }
 
+    // TODO 将此方法的主体转移到Person类中
     static int numberOfAdvancedCourses(Person person) {
         Iterator<Object> iter = person.getCourses().iterator();
         int count = 0;
