@@ -12,6 +12,7 @@ class Chapter10_2Test {
         assertEquals(expected, Chapter10_2.getTelephoneNumber(123456));
     }
 
+    // TODO 重构完成后启用该测试进行验证
     @Disabled
     void newTelephoneNumber() {
         String expected = "Telephone: (100)123456";
