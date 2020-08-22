@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter8;
  * 将引用对象改为值对象
  */
 public class Chapter8_4 {
+    // TODO 将Currency改为值类型，实现equals和hashCode方法
     static class Currency {
         private String _code;
 
