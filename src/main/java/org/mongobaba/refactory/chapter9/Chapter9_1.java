@@ -15,6 +15,7 @@ public class Chapter9_1 {
     private double _winterServiceCharge = 0.3;
     private double _summerRate = 0.15;
 
+    // TODO 将if-else语句的分支拆分出来
     double calculateCharge(Date data, double quantity) {
         double charge;
         if (data.before(SUMMER_START) || data.after(SUMMER_END)) {
