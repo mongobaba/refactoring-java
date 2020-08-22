@@ -9,6 +9,7 @@ import java.util.Iterator;
  */
 public class Chapter8_2 {
     static class Order {
+        // TODO 创建一个表示客户的Customer类
         private String _customer;
 
         public Order(String customer) {
