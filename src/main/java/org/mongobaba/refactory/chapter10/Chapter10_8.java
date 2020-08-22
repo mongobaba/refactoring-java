@@ -16,6 +16,7 @@ public class Chapter10_8 {
         this._itemPrice = _itemPrice;
     }
 
+    // TODO 简化此方法
     public double getPrice() {
         int basePrice = _quantity * _itemPrice;
         int discountLevel;
@@ -25,6 +26,7 @@ public class Chapter10_8 {
         return finalPrice;
     }
 
+    // TODO 去除该方法的全部参数
     private double discountedPrice(int basePrice, int discountLevel) {
         if (discountLevel == 2) return basePrice * 0.1;
         else return basePrice * 0.05 ;
