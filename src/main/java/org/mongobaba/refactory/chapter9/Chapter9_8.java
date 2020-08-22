@@ -4,9 +4,8 @@ package org.mongobaba.refactory.chapter9;
  * Introduce Assertion
  * 引入断言
  */
-public class Chapter9_9 {
+public class Chapter9_8 {
     static class Project {
-
         public double getMemberExpenseLimit() {
             return 10.0;
         }
@@ -25,6 +24,7 @@ public class Chapter9_9 {
             _primaryProject = project;
         }
 
+        // TODO 使用断言检查注释描述的情况必须为真
         double getExpenseLimit() {
             // should have either expense limit or a primary project
             return (_expenseLimit != NULL_EXPENSE) ? _expenseLimit : _primaryProject.getMemberExpenseLimit();

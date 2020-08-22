@@ -4,9 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mongobaba.refactory.chapter9.Chapter9_9.*;
+import static org.mongobaba.refactory.chapter9.Chapter9_8.*;
 
-class Chapter9_9Test {
+class Chapter9_8Test {
     private Employee employee;
 
     @BeforeEach
