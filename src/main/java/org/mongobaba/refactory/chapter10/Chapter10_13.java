@@ -31,6 +31,7 @@ public class Chapter10_13 {
         }
     }
 
+    // TODO 移除此方法中的强制向下转型
     static String getSiteLastReadingName(Site site) {
         Reading reading = (Reading) site.lastReading();
         return reading.getName();
