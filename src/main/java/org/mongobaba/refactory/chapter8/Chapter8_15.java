@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter8;
  * 以State/Strategy取代类型码
  */
 public class Chapter8_15 {
+    // TODO 为不同职业建立不同的薪资计算策略类
     static class Employee {
         private int _type;
         static final int ENGINEER = 0;
