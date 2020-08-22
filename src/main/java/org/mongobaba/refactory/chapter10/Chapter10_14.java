@@ -12,6 +12,7 @@ public class Chapter10_14 {
             this._balance = balance;
         }
 
+        // TODO 分别让此方法在无法透支的时候抛出非受检和受检异常
         int withdraw(int amount) {
             if (amount > _balance) {
                 return -1;
