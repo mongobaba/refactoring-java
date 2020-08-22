@@ -7,6 +7,7 @@ import java.util.Date;
  * 函数上移
  */
 public class Chapter11_2 {
+    // TODO 将重复的createBill移到Customer类中
     static class Customer {
         protected Date lastBillDate;
 
