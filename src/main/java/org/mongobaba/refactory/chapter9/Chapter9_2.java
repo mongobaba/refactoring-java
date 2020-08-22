@@ -16,6 +16,7 @@ public class Chapter9_2 {
             this._isPartTime = isPartTime;
         }
 
+        // TODO 合并条件判断
         double disabilityAmount() {
             if (_seniority < 2) return 0;
             if (_monthsDisabled > 12) return 0;
@@ -33,6 +34,7 @@ public class Chapter9_2 {
             return 13;
         }
 
+        // TODO 合并条件判断
         double calculate() {
             if (onVacation()) {
                 if (lengthOfService() > 10) {
