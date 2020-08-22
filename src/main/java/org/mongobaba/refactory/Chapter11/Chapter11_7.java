@@ -8,6 +8,7 @@ import java.util.Vector;
  * 提炼超类
  */
 public class Chapter11_7 {
+    // TODO 为Employee和Department建立Party父类，并转移共性到父类中
     static class Employee {
         private String _name;
         private String _id;
