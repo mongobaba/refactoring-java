@@ -6,6 +6,7 @@ package org.mongobaba.refactory.chapter8;
  */
 public class Chapter8_1 {
     static class IntRange {
+        // TODO 包装以下两个字段
         private int _low, _high;
 
         boolean includes(int arg) {
@@ -32,7 +33,7 @@ public class Chapter8_1 {
             return _cap;
         }
 
-        // try to remove this method
+        // TODO 在完成上面的包装后，去除这一个重写操作
         boolean includes(int arg) {
             return super.includes(arg) && arg <= _cap;
         }
