@@ -16,6 +16,7 @@ public class Chapter9_5 {
             this._isRetired = isRetired;
         }
 
+        // TODO 简化此方法
         double getPayment() {
             double result;
             if (_isDead) result = deadAmount();
@@ -53,6 +54,7 @@ public class Chapter9_5 {
         private double _income = 10000.0;
         private static final double ADJ_FACTOR = 0.01;
 
+        // TODO 通过反转条件使用本重构手法
         public double getAdjustedCapital() {
             double result = 0.0;
             if (_capital > 0.0) {
