@@ -17,6 +17,7 @@ public class Chapter6_3 {
         }
     }
 
+    // TODO 内联basePrice临时变量
     static boolean tooExpensive(Order order) {
         double basePrice = order.basePrice();
         return basePrice > 1000;

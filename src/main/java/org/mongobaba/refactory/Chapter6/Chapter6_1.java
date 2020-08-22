@@ -32,6 +32,7 @@ public class Chapter6_1 {
             _orders.add(order);
         }
 
+        // TODO 拆分这个方法
         void printOwing(double previousAmount) {
             Enumeration<Object> e = _orders.elements();
             double outstanding = previousAmount * 1.2;

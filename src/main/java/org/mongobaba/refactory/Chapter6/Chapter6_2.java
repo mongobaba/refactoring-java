@@ -15,6 +15,7 @@ public class Chapter6_2 {
         return moreThanFiveLateDeliveries() ? 2 : 1;
     }
 
+    // TODO 内联此方法
     boolean moreThanFiveLateDeliveries() {
         return _numberOfLateDeliveries > 5;
     }
