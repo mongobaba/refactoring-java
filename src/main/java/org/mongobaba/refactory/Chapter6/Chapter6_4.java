@@ -13,6 +13,7 @@ public class Chapter6_4 {
         this._itemPrice = itemPrice;
     }
 
+    // TODO 拆分此方法
     double getPrice() {
         int basePrice = _quantity * _itemPrice;
         double discountFactor;
