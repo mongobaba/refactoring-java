@@ -16,6 +16,8 @@ public class Chapter10_5 {
             return salary;
         }
 
+        // TODO 新建一个方法，取代tenPercentRaise和fivePercentRaise
+
         void tenPercentRaise() {
             salary *= 1.1;
         }
@@ -38,6 +40,7 @@ public class Chapter10_5 {
     }
 
     static class Charge {
+        // TODO 将lastUsage()按区间分段，保证每段的处理方式是一致的
         public Dollars baseCharge() {
             double result = Math.min(lastUsage(), 100) * 0.03;
             if (lastUsage() > 100) {
