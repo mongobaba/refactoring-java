@@ -5,6 +5,8 @@ package org.mongobaba.refactory.chapter10;
  * 移除设值函数
  */
 public class Chapter10_10 {
+    // TODO 删除所有类型中的setter方法
+
     static class Account {
         private String _id;
 
