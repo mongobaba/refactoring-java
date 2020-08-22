@@ -6,6 +6,7 @@ package org.mongobaba.refactory.Chapter6;
  */
 public class Chapter6_8 {
     static class Account {
+        // TODO 重构该方法
         int gamma(int inputVal1, int quantity, int yearToDate) {
             int importantValue1 = (inputVal1 * quantity) + delta();
             int importantValue2 = (inputVal1 * yearToDate) + 100;
