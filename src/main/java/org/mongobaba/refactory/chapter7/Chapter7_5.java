@@ -38,6 +38,7 @@ public class Chapter7_5 {
         }
     }
 
+    // TODO 在Person类中直接添加访问方法
     static Person getManagerOf(Person person) {
         return person.getDepartment().getManager();
     }
