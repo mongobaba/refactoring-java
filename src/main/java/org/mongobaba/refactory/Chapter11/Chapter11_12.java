@@ -21,6 +21,7 @@ public class Chapter11_12 {
         }
     }
 
+    // TODO 让Employee直接继承Person
     static class Employee {
         private Person _person = new Person();
 
