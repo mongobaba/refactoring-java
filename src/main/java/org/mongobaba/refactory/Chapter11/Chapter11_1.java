@@ -5,6 +5,7 @@ package org.mongobaba.refactory.Chapter11;
  * 字段上移
  */
 public class Chapter11_1 {
+    // TODO 将子类中的_name字段上移到Employee中
     static class Employee {
     }
 
