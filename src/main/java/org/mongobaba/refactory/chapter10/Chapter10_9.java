@@ -34,6 +34,7 @@ public class Chapter10_9 {
             _entries.add(entry);
         }
 
+        // TODO 引入DateRange代替独立的一组Date对象，并将判断日期包含的代码移入此类中
         double getFlowBetween(Date start, Date end) {
             double result = 0;
             Enumeration<Entry> e = _entries.elements();
