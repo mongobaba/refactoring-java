@@ -5,6 +5,7 @@ package org.mongobaba.refactory.chapter9;
  * 以多态取代条件表达式
  */
 public class Chapter9_6 {
+    // TODO 基于EmployeeType建立继承体系
     enum EmployeeType {
         ENGINEER,
         SALESMAN,
@@ -25,6 +26,7 @@ public class Chapter9_6 {
             return _type;
         }
 
+        // TODO 将此方法转移到EmployeeType继承体系中
         int getPayment() {
             switch (getType()) {
                 case ENGINEER:
