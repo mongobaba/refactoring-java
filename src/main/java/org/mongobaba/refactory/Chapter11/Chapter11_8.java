@@ -26,6 +26,7 @@ public class Chapter11_8 {
         }
     }
 
+    // TODO 为Employee建立接口，屏蔽TimeSheet对Employee的直接依赖
     static class TimeSheet {
         double charge(Employee employee, int days) {
             int base = employee.getRate() * days;
