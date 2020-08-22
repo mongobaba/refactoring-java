@@ -11,6 +11,7 @@ public class Chapter9_3 {
         this.isSpecial = isSpecial;
     }
 
+    // TODO 提取重复的send()
     double calculateDeal(double price) {
         double total;
         if (isSpecialDeal()) {
