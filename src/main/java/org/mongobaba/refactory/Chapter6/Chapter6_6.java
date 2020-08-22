@@ -17,6 +17,7 @@ public class Chapter6_6 {
         this._delay = delay;
     }
 
+    // TODO 拆分acc变量
     double getDistanceTravelled(int time) {
         double result;
         double acc = _primaryForce / _mass;
