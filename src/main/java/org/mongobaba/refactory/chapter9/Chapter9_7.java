@@ -38,6 +38,7 @@ public class Chapter9_7 {
             return _customer;
         }
 
+        // TODO 去除本方法中所有的空判断
         String displayRecord() {
             Customer customer = getCustomer();
             String customerName;
