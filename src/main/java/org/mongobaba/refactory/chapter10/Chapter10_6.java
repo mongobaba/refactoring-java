@@ -15,6 +15,7 @@ public class Chapter10_6 {
         private int _height;
         private int _width;
 
+        // TODO 为height和width分别添加setter方法
         void setValue(String name, int value) {
             if (name.equals("height")) {
                 _height = value;
@@ -64,6 +65,7 @@ public class Chapter10_6 {
         static final int SALESMAN = 1;
         static final int MANAGER = 2;
 
+        // TODO 将此方法拆分为一系列明确的工厂方法
         static Employee create(int type) {
             switch (type) {
                 case ENGINEER:
