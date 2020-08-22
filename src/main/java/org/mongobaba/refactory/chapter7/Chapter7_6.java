@@ -29,6 +29,7 @@ public class Chapter7_6 {
         }
     }
 
+    // TODO 移除Person中的委托，直接让调用端使用Department类和相关方法
     static Person getManagerOf(Person person) {
         return person.getManager();
     }
