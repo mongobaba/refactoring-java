@@ -13,6 +13,7 @@ public class Chapter6_5 {
         this._itemPrice = itemPrice;
     }
 
+    // TODO 重构此方法
     double price() {
         // price is base price - quantity discount + shipping
         return _quantity * _itemPrice -
