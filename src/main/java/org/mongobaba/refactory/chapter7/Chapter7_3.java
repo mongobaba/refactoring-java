@@ -7,6 +7,8 @@ package org.mongobaba.refactory.chapter7;
 public class Chapter7_3 {
     static class Person {
         private String _name;
+
+        // TODO 将这两个字段提取到单独的类中
         private String _officeAreaCode;
         private String _officeNumber;
 
